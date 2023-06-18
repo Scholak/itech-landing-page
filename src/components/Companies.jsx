@@ -28,7 +28,7 @@ const Companies = () => {
 				variants={variants}
 				initial='hidden'
 				animate={isInView ? 'visible' : 'hidden'}
-				transition={{ duration: 1, delay: 2 }}
+				transition={{ duration: 1, delay: 1 }}
 			>
 				<h3 className='mb-12 px-2 font-semibold text-2xl text-center text-gray-800'>
 					<span className='text-purple-800'>25K+ Installation</span> and
