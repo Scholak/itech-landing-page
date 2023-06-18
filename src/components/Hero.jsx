@@ -59,19 +59,19 @@ const Hero = () => {
 						No Coding required to make customization. the live customizer has
 						everything you need.
 					</p>
-					<div className='flex flex-col items-center mb-6 sm:flex-row md:mb-12'>
+					<div className='flex flex-col mb-6 sm:flex-row sm:items-center sm:gap-8 md:mb-12'>
 						<button className='flex items-center justify-center mt-4 py-4 px-8 gap-4 rounded-2xl border border-purple-800 bg-purple-800 text-white font-medium md:text-xl'>
 							<img src={apple} alt='play button icon' />
 							Download App
 						</button>
-						<button className='flex items-center gap-2 mt-4 py-3 px-8'>
+						<button className='flex items-center gap-2 mt-4 py-3'>
 							<img src={playBtn} alt='play button icon' />
 							<p className='flex flex-col text-left'>
 								<span>View</span> <span>Promotion</span>
 							</p>
 						</button>
 					</div>
-					<div className='flex flex-col gap-10 items-center sm:flex-row'>
+					<div className='flex flex-col gap-5 items-center sm:flex-row sm:gap-10'>
 						<div className='flex items-center gap-2 font-medium'>
 							<img
 								src={refresh}
