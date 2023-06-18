@@ -31,7 +31,7 @@ const Reviews = () => {
 
   return (
 		<section
-			className='container mx-auto py-20 grid grid-cols-1 gap-12 lg:grid-cols-2'
+			className='container mx-auto py-20 grid grid-cols-1 gap-12 px-2 lg:grid-cols-2'
 			ref={ref}
 		>
 			<motion.div

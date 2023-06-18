@@ -48,7 +48,7 @@ const Feature1 = () => {
 				transition={{ duration: 1, delay: 1 }}
 				initial='fromRight'
 				animate={isInView ? 'animate' : 'fromRight'}
-				className='flex flex-col justify-between items-start md:w-2/5 md:pr-16 lg:pr-24'
+				className='flex flex-col justify-between items-start px-2 md:w-2/5 md:pr-16 lg:pr-24'
 			>
 				<h3 className='w-min whitespace-nowrap rounded shadow mb-4 p-2 bg-gray-200 text-purple-800'>
 					Notero-Easy Note App

@@ -41,7 +41,7 @@ const Feature2 = () => {
 				transition={{ duration: 0.5, delay: 1 }}
 				initial='fromLeft'
 				animate={isInView ? 'animate' : 'fromLeft'}
-				className='flex flex-col justify-between items-start md:w-1/2 md:mr-40 lg:mr-80'
+				className='flex flex-col justify-between items-start px-2 md:w-1/2 md:mr-40 lg:mr-80'
 			>
 				<h3 className='w-min whitespace-nowrap rounded shadow mb-4 p-2 bg-gray-200 text-purple-800'>
 					Better Note Management

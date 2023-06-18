@@ -36,7 +36,7 @@ const Features = () => {
 					alt=''
 					className='absolute top-1/2 left-1/2 -translate-x-1/2'
 				/>
-				<h3 className='w-min whitespace-nowrap mx-auto rounded shadow mb-8 p-3 bg-white text-purple-800 text-center z-10'>
+				<h3 className='w-min whitespace-nowrap mx-auto px-2 rounded shadow mb-8 p-3 bg-white text-purple-800 text-center z-10'>
 					Notero-Easy Note App
 				</h3>
 				<h2 className='mb-12 text-4xl font-bold text-center z-10'>
